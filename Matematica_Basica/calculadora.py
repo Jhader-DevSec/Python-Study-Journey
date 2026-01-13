@@ -1,4 +1,4 @@
-print("bem vindo a calculator!")
+print("bem vindo a calculadora do DEV!")
 
 while True:
     operação = input("digite a operação (+, -, *, /): ")
@@ -27,4 +27,5 @@ while True:
 
     if continuar.lower() == 'n':
             print("Encerrando a calculadora. Até a próxima!")
+
             break
