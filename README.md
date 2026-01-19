@@ -9,7 +9,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 
 - [x] **Fundamentos:** Variáveis, Tipos de Dados, Input/Output
 - [x] **Controle de Fluxo:** If/Else, Loops (For/While)
-- [ ] **Estruturas de Dados:** Listas, Dicionários, Tuplas
+- [x] **Estruturas de Dados:** Listas, Dicionários, Tuplas
 - [ ] **Funções:** Definição, Parâmetros, Return
 - [ ] **Manipulação de Arquivos:** Leitura e Escrita (.txt, .csv)
 
@@ -21,6 +21,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 | **Analisador de Texto** | Ferramentas para inverter strings e contar vogais. | `for loop`, `slicing` | [Ver Pasta](./Manipulacao_Strings) |
 | **Cadastro Interativo** | Script de interação com usuário e validação simples. | `input`, `f-strings` | [Ver Código](./Logica_Controle/cadastro_interativo.py) |
 | **Refatoração de Código** | Comparação entre código inicial e otimizado (Clean Code). | `refactoring`, `scope` | [Ler Estudo](./Logica_Controle/Estudo_Contagem_Regressiva) |
+| **Task Manager (CLI)** | Gerenciador de tarefas com validação de dados e tratamento de exceções. | `lists`, `enumerate`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
 
 ## 🛠 Como executar
 ```bash
