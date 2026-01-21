@@ -22,6 +22,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 | **Cadastro Interativo** | Script de interação com usuário e validação simples. | `input`, `f-strings` | [Ver Código](./Logica_Controle/cadastro_interativo.py) |
 | **Refatoração de Código** | Comparação entre código inicial e otimizado (Clean Code). | `refactoring`, `scope` | [Ler Estudo](./Logica_Controle/Estudo_Contagem_Regressiva) |
 | **Task Manager (CLI)** | Gerenciador de tarefas com validação de dados e tratamento de exceções. | `lists`, `enumerate`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
+| **Contact Book** | Agenda com sistema de busca rápida e atualização de registros. | `dictionaries`, `nested dicts`, `.update()` | [Ver Código](./Estruturas_Dados/contact_manager.py) |
 
 ## 🛠 Como executar
 ```bash
