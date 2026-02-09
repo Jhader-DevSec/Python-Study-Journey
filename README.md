@@ -23,6 +23,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 | **Refatoração de Código** | Comparação entre código inicial e otimizado (Clean Code). | `refactoring`, `scope` | [Ler Estudo](./Logica_Controle/Estudo_Contagem_Regressiva) |
 | **Task Manager (CLI)** | Gerenciador de tarefas com validação de dados e tratamento de exceções. | `lists`, `enumerate`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
 | **Contact Book** | Agenda com sistema de busca rápida e atualização de registros. | `dictionaries`, `nested dicts`, `.update()` | [Ver Código](./Estruturas_Dados/contact_manager.py) |
+| **Guess Game (Jogo)** | Jogo de adivinhação numérica contra o computador. | `import random`, `while loop`, `conditionals` | [Ver Código](./Logica_Controle/adivinhe_numero.py) |
 
 ## 🛠 Como executar
 ```bash
