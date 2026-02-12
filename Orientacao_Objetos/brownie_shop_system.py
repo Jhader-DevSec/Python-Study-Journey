@@ -45,8 +45,7 @@ while True:
 
         except:
             print("por favor digite em numeros a quantidade desejada!")
-            
-        minha_loja.mostrar_relatorio()
-        
+                   
     else:
+
         print("apenas ultilize os numeros 1 e 2!")
