@@ -25,6 +25,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 | **Contact Book** | Agenda com sistema de busca rápida e atualização de registros. | `dictionaries`, `nested dicts`, `.update()` | [Ver Código](./Estruturas_Dados/contact_manager.py) |
 | **Guess Game (Jogo)** | Jogo de adivinhação numérica contra o computador. | `import random`, `while loop`, `conditionals` | [Ver Código](./Logica_Controle/adivinhe_numero.py) |
 | **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs e Docs. | `pypdf`, `pathlib`, `requirements.txt` | [Ver Código](./Automacao_Tarefas) |
+| **Brownie Shop System** | Simulador de PDV focado em Programação Orientada a Objetos. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
 
 ## 🛠 Como executar
 ```bash
