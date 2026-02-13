@@ -26,6 +26,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 | **Guess Game (Jogo)** | Jogo de adivinhação numérica contra o computador. | `import random`, `while loop`, `conditionals` | [Ver Código](./Logica_Controle/adivinhe_numero.py) |
 | **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs e Docs. | `pypdf`, `pathlib`, `requirements.txt` | [Ver Código](./Automacao_Tarefas) |
 | **Brownie Shop System** | Simulador de PDV focado em Programação Orientada a Objetos. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
+| **Banking System** | Simulador bancário com histórico de transações e gestão de múltiplas contas. | `classes`, `list-attributes`, `object-mapping` | [Ver Código](./Orientacao_Objetos/banking_system.py) |
 
 ## 🛠 Como executar
 ```bash
