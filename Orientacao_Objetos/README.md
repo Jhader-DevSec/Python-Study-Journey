@@ -14,3 +14,13 @@ Um simulador de ponto de venda (PDV) para uma loja de brownies, utilizando conce
 * **Lógica de Métodos:** Implementação de funções internas à classe (`vender` e `mostrar_relatorio`) para manipular os dados internos de forma segura.
 * **Validação de Negócio:** Verificação de estoque antes de confirmar a transição financeira.
 * **Tratamento de Erros:** Blocos `try/except` para garantir que o sistema de vendas não feche por erros de digitação do usuário.
+
+### 2. Banking System Simulator
+**Arquivo:** [`banking_system.py`](./banking_system.py)
+
+Um simulador de banco que permite a criação de múltiplos usuários, cada um com sua própria instância de conta, saldo independente e registro de histórico.
+
+#### 🧠 Destaques Técnicos:
+* **Instanciação Dinâmica:** Criação de novos objetos da classe `BankAccount` em tempo de execução e armazenamento em um dicionário global.
+* **Gestão de Atributos Complexos:** Uso de listas internas (`self.historical`) para rastrear todas as movimentações financeiras de cada objeto individualmente.
+* **Lógica de Verificação:** Implementação de regras de negócio para impedir saques maiores que o saldo disponível.
