@@ -24,17 +24,34 @@ class BankAccount():
             print("Nenhuma transação realizada.")
         for t in self.historical:
             print(t)
-
+            
+    def transfer(self, destination_accont, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            self.historical.append(f"transferencia enviada: -{amount} para {destination_accont.name}")
+            destination_accont.owner_deposit(amount)
+            destination_accont.historical.append(f"Tranferencia recebida: +{amount} de {self.name}")
+        else:
+            print(f"saldo insuficiente para a transferir. seu saldo atual é de: {self.balance}")
 
 accounts_db = {}
 
 while True:
     print("\n------------- BEM-VINDO -------------")
-    print("1. Criar Usuário | 2. Ver Extrato | 3. Depositar | 4. Sacar | 5. Sair")
+    print("0. valor total no banco | 1. Criar Usuário | 2. Ver Extrato | 3. Depositar | 4. Sacar | | 5. Transferir | 6. listar clientes | 7. Sair")
     
-    choice = input("Escolha uma opção: ")
+
+    choice = input("\nEscolha uma opção: ")
     
-    if choice == "1":
+    if choice == "0":
+        soma = 0
+        for u in accounts_db.values():
+            soma += u.balance
+            
+        print("\n----------------BANK-------------------")
+        print(f"O valor total no banco é de: {soma}")
+            
+    elif choice == "1":
         person = input("Qual o nome do novo usuário? ").upper()
         
         if person in accounts_db:
@@ -71,5 +88,29 @@ while True:
             print("Usuário não encontrado!")
             
     elif choice == "5":
+        search = input("Quem vai enviar? ").upper()
+        search2 = input("Quem vai receber? ").upper()
+        
+        if search in accounts_db and search2 in accounts_db:
+            try:
+                value = float(input("qual o valor da transferencia?"))
+                sender = accounts_db[search]
+                reciver = accounts_db[search2]
+                
+                sender.transfer(reciver, value)
+            
+            except ValueError:
+                print("digite o valor em numeros apenas.")
+        else:
+            print("Um ou ambos os nomes nao foram encontrados no banco de dados.")
+        
+    elif choice == "6":
+        try:
+            for p in enumerate(accounts_db):
+                print(p)
+        except:
+            print("Não temos clientes no momento!")
+            
+    elif choice == "7":
         print("Saindo do sistema... Até logo!")
         break
