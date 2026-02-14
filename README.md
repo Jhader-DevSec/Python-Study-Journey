@@ -10,9 +10,10 @@ Aqui estão os conceitos que já pratiquei e dominei:
 - [x] **Fundamentos:** Variáveis, Tipos de Dados, Input/Output
 - [x] **Controle de Fluxo:** If/Else, Loops (For/While)
 - [x] **Estruturas de Dados:** Listas, Dicionários, Tuplas
-- [ ] **Funções:** Definição, Parâmetros, Return
-- [ ] **Manipulação de Arquivos:** Leitura e Escrita (.txt, .csv)
-
+- [x] Funções: Definição, Parâmetros, Return
+- [x] Manipulação de Arquivos: Leitura e Escrita (.pdf, .docx, .txt)
+- [x] Programação Orientada a Objetos (POO): Classes, Métodos e Instâncias
+      
 ## 🚀 Projetos Práticos neste Repo
 | Projeto | Descrição | Conceitos Usados | Link |
 | :--- | :--- | :--- | :--- |
