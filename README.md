@@ -17,6 +17,9 @@ Aqui estão os conceitos que já pratiquei e dominei:
 | Projeto | Descrição | Conceitos Usados | Link |
 | :--- | :--- | :--- | :--- |
 | **Calculadora V2** | Calculadora interativa com menu e tratamento de erro. | `while true`, `if/elif` | [Ver Código](./Matematica_Basica/calculadora.py) |
+| **IMC Calculator** | Calcula o Índice de Massa Corporal e classifica o resultado. | `float`, `if/elif` | [Ver Código](./Matematica_Basica/imc_calculator.py) |
+| **Fatorial** | Cálculo matemático de fatorial utilizando recursividade. | `recursividade`, `funções` | [Ver Código](./Matematica_Basica/fatorial_calculator.py) |
+| **Tabuada** | Gera a tabuada completa de um número de forma dinâmica. | `for loop`, `f-strings` | [Ver Código](./Matematica_Basica/tabuada.py) |
 | **Login Simulator** | Simulação de sistema de senha com limite de tentativas. | `while`, `break`, `else` | [Ver Código](./Logica_Controle/login_simples.py) |
 | **Analisador de Texto** | Ferramentas para inverter strings e contar vogais. | `for loop`, `slicing` | [Ver Pasta](./Manipulacao_Strings) |
 | **Cadastro Interativo** | Script de interação com usuário e validação simples. | `input`, `f-strings` | [Ver Código](./Logica_Controle/cadastro_interativo.py) |
