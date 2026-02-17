@@ -31,6 +31,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 | **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs e Docs. | `pypdf`, `pathlib`, `requirements.txt` | [Ver Código](./Automacao_Tarefas) |
 | **Brownie Shop System** | Simulador de PDV focado em Programação Orientada a Objetos. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
 | **Banking System** | Simulador bancário com histórico de transações e gestão de múltiplas contas. | `classes`, `list-attributes`, `object-mapping` | [Ver Código](./Orientacao_Objetos/banking_system.py) |
+| **Word Orderer** | Organiza palavras em ordem alfabética removendo espaços extras. | `list comprehension`, `sort`, `strip` | [Ver Código](./Manipulacao_Strings/word_orderer.py) |
 
 ## 🛠 Como executar
 ```bash
