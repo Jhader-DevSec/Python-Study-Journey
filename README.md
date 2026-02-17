@@ -15,23 +15,46 @@ Aqui estão os conceitos que já pratiquei e dominei:
 - [x] Programação Orientada a Objetos (POO): Classes, Métodos e Instâncias
       
 ## 🚀 Projetos Práticos neste Repo
+
+Abaixo, meus projetos organizados por nível de complexidade e área de atuação:
+
+### 🏛️ Programação Orientada a Objetos (Avançado)
+Estudos focados em arquitetura de software, classes e interação entre objetos.
+
 | Projeto | Descrição | Conceitos Usados | Link |
 | :--- | :--- | :--- | :--- |
-| **Calculadora V2** | Calculadora interativa com menu e tratamento de erro. | `while true`, `if/elif` | [Ver Código](./Matematica_Basica/calculadora.py) |
-| **IMC Calculator** | Calcula o Índice de Massa Corporal e classifica o resultado. | `float`, `if/elif` | [Ver Código](./Matematica_Basica/imc_calculator.py) |
-| **Fatorial** | Cálculo matemático de fatorial utilizando recursividade. | `recursividade`, `funções` | [Ver Código](./Matematica_Basica/fatorial_calculator.py) |
-| **Tabuada** | Gera a tabuada completa de um número de forma dinâmica. | `for loop`, `f-strings` | [Ver Código](./Matematica_Basica/tabuada.py) |
-| **Login Simulator** | Simulação de sistema de senha com limite de tentativas. | `while`, `break`, `else` | [Ver Código](./Logica_Controle/login_simples.py) |
+| **Banking System** | Simulador bancário com transferências e histórico. | `classes`, `object-mapping` | [Ver Código](./Orientacao_Objetos/banking_system.py) |
+| **Brownie Shop System** | Simulador de PDV focado em POO e gestão de estoque. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
+
+### 🤖 Automação e Utilidades
+Scripts criados para otimizar tarefas repetitivas e manipular arquivos.
+
+| Projeto | Descrição | Conceitos Usados | Link |
+| :--- | :--- | :--- | :--- |
+| **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs. | `pypdf`, `pathlib` | [Ver Pasta](./Automacao_Tarefas) |
+| **Word Orderer** | Limpeza e ordenação alfabética de strings. | `list comprehension`, `strip` | [Ver Código](./Manipulacao_Strings/word_orderer.py) |
+| **Task Manager (CLI)** | Gerenciador de tarefas com tratamento de exceções. | `lists`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
+
+### 🧠 Lógica, Matemática e Algoritmos
+Projetos para consolidar a base de programação e algoritmos clássicos.
+
+| Projeto | Descrição | Conceitos Usados | Link |
+| :--- | :--- | :--- | :--- |
+| **Fatorial** | Cálculo matemático utilizando recursividade. | `recursividade`, `funções` | [Ver Código](./Matematica_Basica/fatorial_calculator.py) |
+| **IMC Calculator** | Calcula e classifica o Índice de Massa Corporal. | `float`, `if/elif` | [Ver Código](./Matematica_Basica/imc_calculator.py) |
+| **Guess Game** | Jogo de adivinhação numérica contra o computador. | `import random`, `while` | [Ver Código](./Logica_Controle/adivinhe_numero.py) |
+| **Tabuada** | Gerador de tabuada dinâmica e interativa. | `for loop`, `f-strings` | [Ver Código](./Matematica_Basica/tabuada.py) |
+
+### 📚 Estudos e Estruturas
+Simulações de sistemas e estudos sobre organização de dados.
+
+| Projeto | Descrição | Conceitos Usados | Link |
+| :--- | :--- | :--- | :--- |
+| **Contact Book** | Agenda com busca rápida em dicionários aninhados. | `dictionaries`, `.update()` | [Ver Código](./Estruturas_Dados/contact_manager.py) |
+| **Login Simulator** | Sistema de senha com limite de tentativas. | `while`, `break`, `else` | [Ver Código](./Logica_Controle/login_simples.py) |
+| **Refatoração** | Estudo comparativo de Clean Code e escopo. | `refactoring`, `scope` | [Ler Estudo](./Logica_Controle/Estudo_Contagem_Regressiva) |
 | **Analisador de Texto** | Ferramentas para inverter strings e contar vogais. | `for loop`, `slicing` | [Ver Pasta](./Manipulacao_Strings) |
 | **Cadastro Interativo** | Script de interação com usuário e validação simples. | `input`, `f-strings` | [Ver Código](./Logica_Controle/cadastro_interativo.py) |
-| **Refatoração de Código** | Comparação entre código inicial e otimizado (Clean Code). | `refactoring`, `scope` | [Ler Estudo](./Logica_Controle/Estudo_Contagem_Regressiva) |
-| **Task Manager (CLI)** | Gerenciador de tarefas com validação de dados e tratamento de exceções. | `lists`, `enumerate`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
-| **Contact Book** | Agenda com sistema de busca rápida e atualização de registros. | `dictionaries`, `nested dicts`, `.update()` | [Ver Código](./Estruturas_Dados/contact_manager.py) |
-| **Guess Game (Jogo)** | Jogo de adivinhação numérica contra o computador. | `import random`, `while loop`, `conditionals` | [Ver Código](./Logica_Controle/adivinhe_numero.py) |
-| **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs e Docs. | `pypdf`, `pathlib`, `requirements.txt` | [Ver Código](./Automacao_Tarefas) |
-| **Brownie Shop System** | Simulador de PDV focado em Programação Orientada a Objetos. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
-| **Banking System** | Simulador bancário com histórico de transações e gestão de múltiplas contas. | `classes`, `list-attributes`, `object-mapping` | [Ver Código](./Orientacao_Objetos/banking_system.py) |
-| **Word Orderer** | Organiza palavras em ordem alfabética removendo espaços extras. | `list comprehension`, `sort`, `strip` | [Ver Código](./Manipulacao_Strings/word_orderer.py) |
 
 ## 🛠 Como executar
 ```bash
