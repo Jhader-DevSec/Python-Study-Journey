@@ -1,4 +1,3 @@
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 # 🐍 Minha Jornada em Python
 
 Este repositório documenta minha evolução no aprendizado da linguagem Python, focando em lógica de programação, estruturas de dados e automação básica.
