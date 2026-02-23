@@ -11,17 +11,19 @@ Um simulador de ponto de venda (PDV) para uma loja de brownies, utilizando conce
 
 #### 🧠 Destaques Técnicos:
 * **Encapsulamento de Atributos:** Uso do método construtor `__init__` para inicializar o estado da loja (estoque e caixa).
-* **Lógica de Métodos:** Implementação de funções internas à classe (`vender` e `mostrar_relatorio`) para manipular os dados internos de forma segura.
+* **Lógica de Métodos:** Implementação de funções internas à classe para manipular os dados internos de forma segura.
 * **Validação de Negócio:** Verificação de estoque antes de confirmar a transição financeira.
-* **Tratamento de Erros:** Blocos `try/except` para garantir que o sistema de vendas não feche por erros de digitação do usuário.
+* **Tratamento de Erros:** Blocos `try/except` para garantir que o sistema de vendas não feche por erros de digitação.
 
-### 2. Banking System Simulator (v2.0)
+---
+
+### 2. Banking System Simulator (v3.0 - Security Update) 🛡️
 **Arquivo:** [`banking_system.py`](./banking_system.py)
 
-Um simulador bancário robusto que gerencia múltiplas contas através de instâncias de classes, permitindo interações financeiras complexas entre diferentes usuários.
+Um simulador bancário profissional que integra lógica de segurança cibernética à Orientação a Objetos, permitindo autenticação por senha e rastreabilidade total de operações.
 
 #### 🧠 Destaques Técnicos da Atualização:
-* **Interação entre Objetos:** Implementação de transferências diretas onde um objeto altera o estado de outro (remetente e destinatário) através de métodos internos.
-* **Agregação de Dados:** Uso de loops e métodos de dicionário (`values()`) para calcular métricas globais, como o saldo total sob custódia do banco.
-* **Tratamento de Erros:** Uso estratégico de blocos `try/except` para validar entradas numéricas e garantir a integridade do sistema durante transferências e saques.
-* **Gestão de Banco de Dados em Memória:** Mapeamento de objetos em um dicionário global, permitindo busca, listagem e manipulação de contas por nome de usuário.
+* **Integração de Segurança (DevSec):** Implementação de um gerador de senhas de alta entropia para novos usuários e validação de credenciais em métodos sensíveis (Saque, Extrato e Transferência).
+* **Rastreabilidade (Logging):** Uso de listas internas (`historical`) para registrar cada movimentação financeira, garantindo integridade e histórico para o usuário.
+* **Encapsulamento de Validação:** Criação do método `check_password()` para centralizar a lógica de segurança, evitando repetição de código e seguindo o princípio DRY (Don't Repeat Yourself).
+* **Gestão Dinâmica de Objetos:** Uso de dicionários globais para simular um banco de dados em memória, permitindo operações complexas entre diferentes instâncias de contas.
