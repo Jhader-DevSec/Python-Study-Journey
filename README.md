@@ -13,6 +13,9 @@ Aqui estão os conceitos que já pratiquei e dominei:
 - [x] Funções: Definição, Parâmetros, Return
 - [x] Manipulação de Arquivos: Leitura e Escrita (.pdf, .docx, .txt)
 - [x] Programação Orientada a Objetos (POO): Classes, Métodos e Instâncias
+- [x] Integração de Módulos: Uso de lógica de diferentes scripts em um único sistema
+- [x] Validação de Segurança: Implementação de check_password em métodos sensíveis
+- [x] Gerenciamento de Dados Dinâmicos: Uso de dicionários para banco de dados de contas
       
 ## 🚀 Projetos Práticos neste Repo
 
@@ -23,7 +26,7 @@ Estudos focados em arquitetura de software, classes e interação entre objetos.
 
 | Projeto | Descrição | Conceitos Usados | Link |
 | :--- | :--- | :--- | :--- |
-| **Banking System** | Simulador bancário com transferências e histórico. | `classes`, `object-mapping` | [Ver Código](./Orientacao_Objetos/banking_system.py) |
+| **Banking System V3** | Simulador bancário com histórico, transferências e autenticação de segurança. | `classes`, `validação de senha`, `random/string` | [Ver Código](./Orientacao_Objetos/banking_system.py) |
 | **Brownie Shop System** | Simulador de PDV focado em POO e gestão de estoque. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
 
 ### 🤖 Automação e Utilidades
