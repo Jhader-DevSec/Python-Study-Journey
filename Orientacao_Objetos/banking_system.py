@@ -9,7 +9,6 @@ class BankAccount():
         self.password = password  
         
     def check_password(self):
-        """Validação de segurança para operações sensíveis"""
         attempt = input(f"Digite a senha para a conta de {self.name}: ")
         if attempt == self.password:
             return True
@@ -51,7 +50,6 @@ class BankAccount():
                 print(f"saldo insuficiente para a transferir.")
 
 def gerar_senha_automatica(comprimento=8):
-    """Função do seu gerador de senhas integrada"""
     caracteres = string.ascii_letters + string.digits + string.punctuation
     return ''.join(random.choice(caracteres) for i in range(comprimento))
 
@@ -114,4 +112,5 @@ while True:
             print("Conta não encontrada.")
             
     elif choice == "6":
+
         break
