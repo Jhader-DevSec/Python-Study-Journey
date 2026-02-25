@@ -38,7 +38,7 @@ Scripts criados para otimizar tarefas repetitivas e manipular arquivos.
 | **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs. | `pypdf`, `pathlib`, `yield`, `error handling` | [Ver Pasta](./caminho) |
 | **Word Orderer** | Limpeza e ordenação alfabética de strings. | `list comprehension`, `strip` | [Ver Código](./Manipulacao_Strings/word_orderer.py) |
 | **Task Manager (CLI)** | Gerenciador de tarefas com tratamento de exceções. | `lists`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
-| **SSH Log Analyzer (Blue Team)** | Script para varrer logs de servidores Linux e detectar ataques de Força Bruta (Brute-Force) otimizando a memória do sistema. | `yield (generators)`, `manipulação de arquivos`, `caminhos absolutos/relativos` | [Ver no Repositório de Segurança](Defense_&_Privacy/log_reader.py) |
+| **SSH Log Analyzer (Blue Team)** | Script para varrer logs de servidores Linux e detectar ataques de Força Bruta (Brute-Force) otimizando a memória do sistema. | `yield (generators)`, `manipulação de arquivos`, `caminhos absolutos/relativos` | [Ver no Repositório de Segurança](https://github.com/Jhader-DevSec/Python-For-Security/blob/main/Defense_%26_Privacy/log_reader.py) |
 
 ### 🧠 Lógica, Matemática e Algoritmos
 Projetos para consolidar a base de programação e algoritmos clássicos.
