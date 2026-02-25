@@ -45,11 +45,18 @@ def read_pdf(file):
     
     if path_extension.suffix.lower() == ".pdf":
         reader = PdfReader(file)
-        text = ""
         
         for page in reader.pages:
-            text += page.extract_text()
-        return text
+            yield page.extract_text()
+            
+def read_docx(file):
+    path_extension = Path(file)
+    
+    if path_extension.suffix.lower() == ".docx":
+        reader = Document(file)
+        
+        for paragraph in reader.paragraphs:
+            yield paragraph.text
     
     
 while True:
@@ -68,11 +75,24 @@ while True:
     
     if user_choice == 1:
         file_path = input('qual o ducumento desejado para ler?')
-        
-        try:
-            print(read_pdf(file_path))
-        except FileNotFoundError:
-            print("arquivo não encontrado!")
+        if Path(file_path).suffix.lower() == ".pdf":
+            try:
+                for page_content in read_pdf(file_path):
+                    print(page_content)
+                    print("-" * 50)
+                    
+            except FileNotFoundError:
+                print("arquivo não encontrado!")
+                
+        elif Path(file_path).suffix.lower() == ".docx":
+            try:
+                for paragraph_content in read_docx(file_path):
+                    print(paragraph_content)
+                    
+            except FileNotFoundError:
+                print("arquivo não encontrado!")       
+        else:
+            print("formato de documento não aceito. Por favor ultilize somente .pdf ou .docx!")
         
     elif user_choice == 2:
         file_path = input('qual o ducumento desejado para modificar?')
