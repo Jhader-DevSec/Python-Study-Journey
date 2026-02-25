@@ -10,12 +10,13 @@ Aqui estão os conceitos que já pratiquei e dominei:
 - [x] **Fundamentos:** Variáveis, Tipos de Dados, Input/Output
 - [x] **Controle de Fluxo:** If/Else, Loops (For/While)
 - [x] **Estruturas de Dados:** Listas, Dicionários, Tuplas
-- [x] Funções: Definição, Parâmetros, Return
-- [x] Manipulação de Arquivos: Leitura e Escrita (.pdf, .docx, .txt)
-- [x] Programação Orientada a Objetos (POO): Classes, Métodos e Instâncias
-- [x] Integração de Módulos: Uso de lógica de diferentes scripts em um único sistema
-- [x] Validação de Segurança: Implementação de check_password em métodos sensíveis
-- [x] Gerenciamento de Dados Dinâmicos: Uso de dicionários para banco de dados de contas
+- [x] **Funções:** Definição, Parâmetros, Return
+- [x] **Manipulação de Arquivos:** Leitura e Escrita (.pdf, .docx, .txt)
+- [x] **Programação Orientada a Objetos (POO):** Classes, Métodos e Instâncias
+- [x] **Integração de Módulos:** Uso de lógica de diferentes scripts em um único sistema
+- [x] **Validação de Segurança:** Implementação de check_password em métodos sensíveis
+- [x] **Gerenciamento de Dados** Dinâmicos: Uso de dicionários para banco de dados de contas
+- [x] **Geradores (Generators):** Uso da palavra-chave `yield` para criar funções iteráveis com alta eficiência e baixo consumo de memória.
       
 ## 🚀 Projetos Práticos neste Repo
 
@@ -37,6 +38,7 @@ Scripts criados para otimizar tarefas repetitivas e manipular arquivos.
 | **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs. | `pypdf`, `pathlib`, `yield`, `error handling` | [Ver Pasta](./caminho) |
 | **Word Orderer** | Limpeza e ordenação alfabética de strings. | `list comprehension`, `strip` | [Ver Código](./Manipulacao_Strings/word_orderer.py) |
 | **Task Manager (CLI)** | Gerenciador de tarefas com tratamento de exceções. | `lists`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
+| **SSH Log Analyzer (Blue Team)** | Script para varrer logs de servidores Linux e detectar ataques de Força Bruta (Brute-Force) otimizando a memória do sistema. | `yield (generators)`, `manipulação de arquivos`, `caminhos absolutos/relativos` | [Ver no Repositório de Segurança](URL_DO_SEU_ARQUIVO_NO_OUTRO_REPOSITORIO) |
 
 ### 🧠 Lógica, Matemática e Algoritmos
 Projetos para consolidar a base de programação e algoritmos clássicos.
