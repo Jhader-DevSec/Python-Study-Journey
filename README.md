@@ -26,7 +26,7 @@ Estudos focados em arquitetura de software, classes e interação entre objetos.
 
 | Projeto | Descrição | Conceitos Usados | Link |
 | :--- | :--- | :--- | :--- |
-| **Banking System V3** | Simulador bancário com histórico, transferências e autenticação de segurança. | `classes`, `validação de senha`, `random/string` | [Ver Código](./Orientacao_Objetos/banking_system.py) |
+| **Banking System V3** | Simulador bancário com histórico, transferências e autenticação de segurança. | `classes`, `validação de senha`, `random/string` | [Ver Código](./Orientacao_Objetos/banking_system.py) 
 | **Brownie Shop System** | Simulador de PDV focado em POO e gestão de estoque. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
 
 ### 🤖 Automação e Utilidades
@@ -34,7 +34,7 @@ Scripts criados para otimizar tarefas repetitivas e manipular arquivos.
 
 | Projeto | Descrição | Conceitos Usados | Link |
 | :--- | :--- | :--- | :--- |
-| **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs. | `pypdf`, `pathlib` | [Ver Pasta](./Automacao_Tarefas) |
+| **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs. | `pypdf`, `pathlib`, `yield`, `error handling` | [Ver Pasta](./caminho) |
 | **Word Orderer** | Limpeza e ordenação alfabética de strings. | `list comprehension`, `strip` | [Ver Código](./Manipulacao_Strings/word_orderer.py) |
 | **Task Manager (CLI)** | Gerenciador de tarefas com tratamento de exceções. | `lists`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
 
