@@ -18,6 +18,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 - [x] **Gerenciamento de Dados Dinâmicos:** Uso de dicionários para banco de dados de contas
 - [x] **Geradores (Generators):** Uso da palavra-chave `yield` para criar funções iteráveis com alta eficiência e baixo consumo de memória.
 - [x] **Tratamento de Exceções:** Uso de blocos `try/except` para criar códigos resilientes e prever falhas no sistema (como TypeError e FileNotFoundError).
+- [x] **Decorators (@):** Criação de funções decoradoras para modificar o comportamento de outras funções, atuando como middleware de segurança e sanitização de dados.
       
 ## 🚀 Projetos Práticos neste Repo
 
@@ -62,6 +63,7 @@ Simulações de sistemas e estudos sobre organização de dados.
 | **Refatoração** | Estudo comparativo de Clean Code e escopo. | `refactoring`, `scope` | [Ler Estudo](./Logica_Controle/Estudo_Contagem_Regressiva) |
 | **Analisador de Texto** | Ferramentas para inverter strings e contar vogais. | `for loop`, `slicing` | [Ver Pasta](./Manipulacao_Strings) |
 | **Cadastro Interativo** | Script de interação com usuário e validação simples. | `input`, `f-strings` | [Ver Código](./Logica_Controle/cadastro_interativo.py) |
+| **Mini WAF Simulator** | Simulador de Firewall de Aplicação Web para interceptar e bloquear ataques de SQLi e XSS. | `decorators (@)`, `*args / **kwargs`, `security` | [Ver no Repositório de Segurança]((https://github.com/Jhader-DevSec/Python-For-Security/blob/main/Defense_%26_Privacy/danger_keys_blocker.py)) |
 
 ## 🛠 Como executar
 ```bash
