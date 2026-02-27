@@ -15,8 +15,9 @@ Aqui estão os conceitos que já pratiquei e dominei:
 - [x] **Programação Orientada a Objetos (POO):** Classes, Métodos e Instâncias
 - [x] **Integração de Módulos:** Uso de lógica de diferentes scripts em um único sistema
 - [x] **Validação de Segurança:** Implementação de check_password em métodos sensíveis
-- [x] **Gerenciamento de Dados** Dinâmicos: Uso de dicionários para banco de dados de contas
+- [x] **Gerenciamento de Dados Dinâmicos:** Uso de dicionários para banco de dados de contas
 - [x] **Geradores (Generators):** Uso da palavra-chave `yield` para criar funções iteráveis com alta eficiência e baixo consumo de memória.
+- [x] **Tratamento de Exceções:** Uso de blocos `try/except` para criar códigos resilientes e prever falhas no sistema (como TypeError e FileNotFoundError).
       
 ## 🚀 Projetos Práticos neste Repo
 
