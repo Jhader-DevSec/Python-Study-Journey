@@ -63,7 +63,7 @@ Simulações de sistemas e estudos sobre organização de dados.
 | **Refatoração** | Estudo comparativo de Clean Code e escopo. | `refactoring`, `scope` | [Ler Estudo](./Logica_Controle/Estudo_Contagem_Regressiva) |
 | **Analisador de Texto** | Ferramentas para inverter strings e contar vogais. | `for loop`, `slicing` | [Ver Pasta](./Manipulacao_Strings) |
 | **Cadastro Interativo** | Script de interação com usuário e validação simples. | `input`, `f-strings` | [Ver Código](./Logica_Controle/cadastro_interativo.py) |
-| **Mini WAF Simulator** | Simulador de Firewall de Aplicação Web para interceptar e bloquear ataques de SQLi e XSS. | `decorators (@)`, `*args / **kwargs`, `security` | [Ver no Repositório de Segurança]((https://github.com/Jhader-DevSec/Python-For-Security/blob/main/Defense_%26_Privacy/danger_keys_blocker.py)) |
+| **Mini WAF Simulator** | Simulador de Firewall de Aplicação Web para interceptar e bloquear ataques de SQLi e XSS. | `decorators (@)`, `*args / **kwargs`, `security` | [Ver no Repositório de Segurança](https://github.com/Jhader-DevSec/Python-For-Security/blob/main/Defense_%26_Privacy/waf_simulator.py) |
 
 ## 🛠 Como executar
 ```bash
