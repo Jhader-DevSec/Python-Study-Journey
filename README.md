@@ -19,6 +19,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 - [x] **Geradores (Generators):** Uso da palavra-chave `yield` para criar funções iteráveis com alta eficiência e baixo consumo de memória.
 - [x] **Tratamento de Exceções:** Uso de blocos `try/except` para criar códigos resilientes e prever falhas no sistema (como TypeError e FileNotFoundError).
 - [x] **Decorators (@):** Criação de funções decoradoras para modificar o comportamento de outras funções, atuando como middleware de segurança e sanitização de dados.
+- [x] **Programação Assíncrona:** Uso da biblioteca `asyncio` (`async`/`await`) para executar múltiplas tarefas simultaneamente, otimizando o tempo de espera (I/O Bound).
       
 ## 🚀 Projetos Práticos neste Repo
 
@@ -42,6 +43,7 @@ Scripts criados para otimizar tarefas repetitivas e manipular arquivos.
 | **Task Manager (CLI)** | Gerenciador de tarefas com tratamento de exceções. | `lists`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
 | **SSH Log Analyzer (Blue Team)** | Script para varrer logs de servidores Linux e detectar ataques de Força Bruta (Brute-Force) otimizando a memória do sistema. | `yield (generators)`, `manipulação de arquivos`, `caminhos absolutos/relativos` | [Ver no Repositório de Segurança](https://github.com/Jhader-DevSec/Python-For-Security/blob/main/Defense_%26_Privacy/log_reader.py) |
 | **Fault Tolerance Retrier** | Decorator para criar tolerância a falhas e reexecutar ligações de rede e comandos de sistema operativo automaticamente. | `decorators (@)`, `try/except`, `os` | [Ver Código](./Automacao_Tarefas/fault_tolerance.py) |
+| **Async Task Manager** | Estudo de execução concorrente para rodar processos e automações de forma simultânea. | `asyncio`, `await`, `gather` | [Ver Código](./Logica_Controle/asyncio_study.py) |
 
 ### 🧠 Lógica, Matemática e Algoritmos
 Projetos para consolidar a base de programação e algoritmos clássicos.
