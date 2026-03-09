@@ -20,6 +20,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 - [x] **Tratamento de Exceções:** Uso de blocos `try/except` para criar códigos resilientes e prever falhas no sistema (como TypeError e FileNotFoundError).
 - [x] **Decorators (@):** Criação de funções decoradoras para modificar o comportamento de outras funções, atuando como middleware de segurança e sanitização de dados.
 - [x] **Programação Assíncrona:** Uso da biblioteca `asyncio` (`async`/`await`) para executar múltiplas tarefas simultaneamente, otimizando o tempo de espera (I/O Bound).
+- [x] **Gerenciamento de Memória:** Estudo do módulo `gc` (Garbage Collector) para forçar a liberação de recursos do sistema após a deleção de objetos instanciados.
       
 ## 🚀 Projetos Práticos neste Repo
 
@@ -30,7 +31,7 @@ Estudos focados em arquitetura de software, classes e interação entre objetos.
 
 | Projeto | Descrição | Conceitos Usados | Link |
 | :--- | :--- | :--- | :--- |
-| **Banking System V3** | Simulador bancário com histórico, transferências e autenticação de segurança. | `classes`, `validação de senha`, `random/string` | [Ver Código](./Orientacao_Objetos/banking_system.py) 
+| **Banking System V3** | Simulador bancário com histórico, transferências, segurança e gestão de memória. | `classes`, `gc (memória)`, `random/string` | [Ver Código](./Orientacao_Objetos/banking_system.py) | 
 | **Brownie Shop System** | Simulador de PDV focado em POO e gestão de estoque. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
 
 ### 🤖 Automação e Utilidades
