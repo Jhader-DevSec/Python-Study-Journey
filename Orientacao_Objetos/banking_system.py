@@ -1,5 +1,6 @@
 import random
 import string
+import gc
 
 class BankAccount():
     def __init__(self, owner, password):
@@ -57,7 +58,7 @@ accounts_db = {}
 
 while True:
     print("\n------------- BEM-VINDO -------------")
-    print("1. Criar Usuário | 2. Ver Extrato | 3. Depositar | 4. Sacar | 5. Transferir | 6. Sair")
+    print("1. Criar Usuário | 2. Ver Extrato | 3. Depositar | 4. Sacar | 5. Transferir | 6.deletar usuario | 7. Sair")
     
     choice = input("\nEscolha uma opção: ")
             
@@ -112,5 +113,16 @@ while True:
             print("Conta não encontrada.")
             
     elif choice == "6":
+        target = input("Qual o nome do usuário a ser deletado? ").upper()
+        
+        if target in accounts_db:
+            del accounts_db[target]     
+            gc.collect()      
+            print(f"Usuário {target} foi deletado e a memória foi limpa com sucesso.")
+            
+        else:
+            print("Usuário não encontrado!")
+                
+    elif choice == "7":
 
         break
