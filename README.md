@@ -21,6 +21,7 @@ Aqui estão os conceitos que já pratiquei e dominei:
 - [x] **Decorators (@):** Criação de funções decoradoras para modificar o comportamento de outras funções, atuando como middleware de segurança e sanitização de dados.
 - [x] **Programação Assíncrona:** Uso da biblioteca `asyncio` (`async`/`await`) para executar múltiplas tarefas simultaneamente, otimizando o tempo de espera (I/O Bound).
 - [x] **Gerenciamento de Memória:** Estudo do módulo `gc` (Garbage Collector) para forçar a liberação de recursos do sistema após a deleção de objetos instanciados.
+- [x] **Metaclasses:** Manipulação avançada da criação de classes utilizando herança de `type` e reescrita do método `__new__` para forçar padrões de arquitetura e segurança (Compliance).
       
 ## 🚀 Projetos Práticos neste Repo
 
@@ -33,6 +34,7 @@ Estudos focados em arquitetura de software, classes e interação entre objetos.
 | :--- | :--- | :--- | :--- |
 | **Banking System V3** | Simulador bancário com histórico, transferências, segurança e gestão de memória. | `classes`, `gc (memória)`, `random/string` | [Ver Código](./Orientacao_Objetos/banking_system.py) | 
 | **Brownie Shop System** | Simulador de PDV focado em POO e gestão de estoque. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
+| **Metaclass Security Validator** | Fiscal de arquitetura que impede a criação de classes fora do padrão e injeta atributos dinâmicos. | `metaclasses`, `type`, `__new__` | [Ver Código](./Orientacao_Objetos/metaclass_study.py) |
 
 ### 🤖 Automação e Utilidades
 Scripts criados para otimizar tarefas repetitivas e manipular arquivos.
