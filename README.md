@@ -58,6 +58,7 @@ Projetos para consolidar a base de programação e algoritmos clássicos.
 | **Guess Game** | Jogo de adivinhação numérica contra o computador. | `import random`, `while` | [Ver Código](./Logica_Controle/adivinhe_numero.py) |
 | **Tabuada** | Gerador de tabuada dinâmica e interativa. | `for loop`, `f-strings` | [Ver Código](./Matematica_Basica/tabuada.py) |
 | **Server Ping Analyzer** | Calculador de média de latência que ignora falhas ("timeouts") em logs usando tratamento de erros. | `try/except`, `lists`, `math` | [Ver Código](./Logica_Controle/network_log_exceptions.py) |
+| **Jogo da Velha (Tic-Tac-Toe)** | Jogo interativo contra a máquina com forte validação de input e controle de fluxo. | `while`, `listas`, `lógica` | [Ver Código](./Logica_Controle/tic_tac_toe.py) |
 
 ### 📚 Estudos e Estruturas
 Simulações de sistemas e estudos sobre organização de dados.
