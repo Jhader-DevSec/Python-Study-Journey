@@ -47,6 +47,7 @@ Scripts criados para otimizar tarefas repetitivas e manipular arquivos.
 | **SSH Log Analyzer (Blue Team)** | Script para varrer logs de servidores Linux e detectar ataques de Força Bruta (Brute-Force) otimizando a memória do sistema. | `yield (generators)`, `manipulação de arquivos`, `caminhos absolutos/relativos` | [Ver no Repositório de Segurança](https://github.com/Jhader-DevSec/Python-For-Security/blob/main/Defense_%26_Privacy/log_reader.py) |
 | **Fault Tolerance Retrier** | Decorator para criar tolerância a falhas e reexecutar ligações de rede e comandos de sistema operativo automaticamente. | `decorators (@)`, `try/except`, `os` | [Ver Código](./Automacao_Tarefas/fault_tolerance.py) |
 | **Async Task Manager** | Estudo de execução concorrente para rodar processos e automações de forma simultânea. | `asyncio`, `await`, `gather` | [Ver Código](./Logica_Controle/asyncio_study.py) |
+| **API Consumer (Chuck Norris)** | Exemplo de requisição HTTP GET para consumo de APIs REST externas e tratamento de JSON. | `requests`, `json`, `api` | [Ver Código](./Automacao_Tarefas/chuck_norris_api.py) |
 
 ### 🧠 Lógica, Matemática e Algoritmos
 Projetos para consolidar a base de programação e algoritmos clássicos.
