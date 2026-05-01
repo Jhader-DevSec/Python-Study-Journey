@@ -1,4 +1,10 @@
-pdf2docx
-python-docx
-pypdf
-request
+# Dependências dos scripts de Automação e Utilidades - Jhader-DevSec
+# Instalação: pip install -r requirements.txt
+
+# Manipulação e conversão de documentos
+pdf2docx==0.5.8
+python-docx==1.1.0
+pypdf==4.1.0
+
+# Comunicação com APIs e Protocolo HTTP
+requests==2.31.0
