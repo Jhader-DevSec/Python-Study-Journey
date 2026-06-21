@@ -1,85 +1,62 @@
-# 🐍 Minha Jornada em Python
+# 🐍 Python Study Journey
 
-Este repositório documenta minha evolução no aprendizado da linguagem Python, focando em lógica de programação, estruturas de dados e automação básica.
+Repositório dedicado à minha evolução em Python através de projetos práticos, estudos de programação orientada a objetos, automação, algoritmos e fundamentos de cibersegurança.
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
 
-## 📚 Tópicos Estudados
-Aqui estão os conceitos que já pratiquei e dominei:
+## Tecnologias e Conceitos Aplicados
 
-- [x] **Fundamentos:** Variáveis, Tipos de Dados, Input/Output
-- [x] **Controle de Fluxo:** If/Else, Loops (For/While)
-- [x] **Estruturas de Dados:** Listas, Dicionários, Tuplas
-- [x] **Funções:** Definição, Parâmetros, Return
-- [x] **Manipulação de Arquivos:** Leitura e Escrita (.pdf, .docx, .txt)
-- [x] **Programação Orientada a Objetos (POO):** Classes, Métodos e Instâncias
-- [x] **Integração de Módulos:** Uso de lógica de diferentes scripts em um único sistema
-- [x] **Validação de Segurança:** Implementação de check_password em métodos sensíveis
-- [x] **Gerenciamento de Dados Dinâmicos:** Uso de dicionários para banco de dados de contas
-- [x] **Geradores (Generators):** Uso da palavra-chave `yield` para criar funções iteráveis com alta eficiência e baixo consumo de memória.
-- [x] **Tratamento de Exceções:** Uso de blocos `try/except` para criar códigos resilientes e prever falhas no sistema (como TypeError e FileNotFoundError).
-- [x] **Decorators (@):** Criação de funções decoradoras para modificar o comportamento de outras funções, atuando como middleware de segurança e sanitização de dados.
-- [x] **Programação Assíncrona:** Uso da biblioteca `asyncio` (`async`/`await`) para executar múltiplas tarefas simultaneamente, otimizando o tempo de espera (I/O Bound).
-- [x] **Gerenciamento de Memória:** Estudo do módulo `gc` (Garbage Collector) para forçar a liberação de recursos do sistema após a deleção de objetos instanciados.
-- [x] **Metaclasses:** Manipulação avançada da criação de classes utilizando herança de `type` e reescrita do método `__new__` para forçar padrões de arquitetura e segurança (Compliance).
-      
-## 🚀 Projetos Práticos neste Repo
+`Python` `POO` `Decorators` `Generators` `Asyncio` `APIs REST`
 
-Abaixo, meus projetos organizados por nível de complexidade e área de atuação:
+`Manipulação de Arquivos` `Tratamento de Exceções` `Estruturas de Dados`
 
-### 🏛️ Programação Orientada a Objetos (Avançado)
-Estudos focados em arquitetura de software, classes e interação entre objetos.
+`Automação` `Metaclasses` `Segurança de Aplicações`
 
-| Projeto | Descrição | Conceitos Usados | Link |
-| :--- | :--- | :--- | :--- |
-| **Banking System V3** | Simulador bancário com histórico, transferências, segurança e gestão de memória. | `classes`, `gc (memória)`, `random/string` | [Ver Código](./Orientacao_Objetos/banking_system.py) | 
-| **Brownie Shop System** | Simulador de PDV focado em POO e gestão de estoque. | `classes`, `__init__`, `methods` | [Ver Código](./Orientacao_Objetos/brownie_shop_system.py) |
-| **Metaclass Security Validator** | Fiscal de arquitetura que impede a criação de classes fora do padrão e injeta atributos dinâmicos. | `metaclasses`, `type`, `__new__` | [Ver Código](./Orientacao_Objetos/metaclass_study.py) |
+---
 
-### 🤖 Automação e Utilidades
-Scripts criados para otimizar tarefas repetitivas e manipular arquivos.
+## Projetos em Destaque
 
-| Projeto | Descrição | Conceitos Usados | Link |
-| :--- | :--- | :--- | :--- |
-| **PDF Toolkit** | Automação para leitura, conversão e edição de PDFs. | `pypdf`, `pathlib`, `yield`, `error handling` | [Ver Pasta](./Automacao_Tarefas/pdf_modifier.py) |
-| **Word Orderer** | Limpeza e ordenação alfabética de strings. | `list comprehension`, `strip` | [Ver Código](./Manipulacao_Strings/word_orderer.py) |
-| **Task Manager (CLI)** | Gerenciador de tarefas com tratamento de exceções. | `lists`, `try/except` | [Ver Código](./Estruturas_Dados/gerenciador_tarefas.py) |
-| **SSH Log Analyzer (Blue Team)** | Script para varrer logs de servidores Linux e detectar ataques de Força Bruta (Brute-Force) otimizando a memória do sistema. | `yield (generators)`, `manipulação de arquivos`, `caminhos absolutos/relativos` | [Ver no Repositório de Segurança](https://github.com/Jhader-DevSec/Python-For-Security/blob/main/Defense_%26_Privacy/log_reader.py) |
-| **Fault Tolerance Retrier** | Decorator para criar tolerância a falhas e reexecutar ligações de rede e comandos de sistema operativo automaticamente. | `decorators (@)`, `try/except`, `os` | [Ver Código](./Automacao_Tarefas/fault_tolerance.py) |
-| **Async Task Manager** | Estudo de execução concorrente para rodar processos e automações de forma simultânea. | `asyncio`, `await`, `gather` | [Ver Código](./Logica_Controle/asyncio_study.py) |
-| **API Consumer (Chuck Norris)** | Exemplo de requisição HTTP GET para consumo de APIs REST externas e tratamento de JSON. | `requests`, `json`, `api` | [Ver Código](./Automacao_Tarefas/chuck_norris_api.py) |
+| Projeto                | Descrição                                                                                               |
+| ---------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Banking System V3**  | Simulador bancário com autenticação, transferências, histórico de operações e gerenciamento de memória. |
+| **PDF Toolkit**        | Ferramenta para leitura, manipulação e automação de documentos PDF.                                     |
+| **SSH Log Analyzer**   | Analisador de logs Linux para identificação de tentativas de força bruta utilizando generators.         |
+| **Async Task Manager** | Estudo de programação assíncrona com `asyncio`, `await` e execução concorrente de tarefas.              |
+| **Mini WAF Simulator** | Simulador de firewall de aplicação web para detecção de padrões simples de SQL Injection e XSS.         |
 
-### 🧠 Lógica, Matemática e Algoritmos
-Projetos para consolidar a base de programação e algoritmos clássicos.
+---
 
-| Projeto | Descrição | Conceitos Usados | Link |
-| :--- | :--- | :--- | :--- |
-| **Fatorial** | Cálculo matemático utilizando recursividade. | `recursividade`, `funções` | [Ver Código](./Matematica_Basica/fatorial_calculator.py) |
-| **IMC Calculator** | Calcula e classifica o Índice de Massa Corporal. | `float`, `if/elif` | [Ver Código](./Matematica_Basica/imc_calculator.py) |
-| **Guess Game** | Jogo de adivinhação numérica contra o computador. | `import random`, `while` | [Ver Código](./Logica_Controle/adivinhe_numero.py) |
-| **Tabuada** | Gerador de tabuada dinâmica e interativa. | `for loop`, `f-strings` | [Ver Código](./Matematica_Basica/tabuada.py) |
-| **Server Ping Analyzer** | Calculador de média de latência que ignora falhas ("timeouts") em logs usando tratamento de erros. | `try/except`, `lists`, `math` | [Ver Código](./Logica_Controle/network_log_exceptions.py) |
-| **Jogo da Velha (Tic-Tac-Toe)** | Jogo interativo contra a máquina com forte validação de input e controle de fluxo. | `while`, `listas`, `lógica` | [Ver Código](./Logica_Controle/tic_tac_toe.py) |
+## Estrutura do Repositório
 
-### 📚 Estudos e Estruturas
-Simulações de sistemas e estudos sobre organização de dados.
+```text
+Orientacao_Objetos/
+Automacao_Tarefas/
+Estruturas_Dados/
+Manipulacao_Strings/
+Logica_Controle/
+Matematica_Basica/
+```
 
-| Projeto | Descrição | Conceitos Usados | Link |
-| :--- | :--- | :--- | :--- |
-| **Contact Book** | Agenda com busca rápida em dicionários aninhados. | `dictionaries`, `.update()` | [Ver Código](./Estruturas_Dados/contact_manager.py) |
-| **Login Simulator** | Sistema de senha com limite de tentativas. | `while`, `break`, `else` | [Ver Código](./Logica_Controle/login_simples.py) |
-| **Refatoração** | Estudo comparativo de Clean Code e escopo. | `refactoring`, `scope` | [Ler Estudo](./Logica_Controle/Estudo_Contagem_Regressiva) |
-| **Analisador de Texto** | Ferramentas para inverter strings e contar vogais. | `for loop`, `slicing` | [Ver Pasta](./Manipulacao_Strings) |
-| **Cadastro Interativo** | Script de interação com usuário e validação simples. | `input`, `f-strings` | [Ver Código](./Logica_Controle/cadastro_interativo.py) |
-| **Mini WAF Simulator** | Simulador de Firewall de Aplicação Web para interceptar e bloquear ataques de SQLi e XSS. | `decorators (@)`, `*args / **kwargs`, `security` | [Ver no Repositório de Segurança](https://github.com/Jhader-DevSec/Python-For-Security/blob/main/Defense_%26_Privacy/waf_simulator.py) |
+Cada diretório representa uma área específica de estudo e contém projetos independentes desenvolvidos durante minha jornada de aprendizado.
 
-## 🛠 Como executar
+---
+
+## Objetivos do Repositório
+
+* Consolidar fundamentos da linguagem Python
+* Aplicar conceitos de programação orientada a objetos
+* Desenvolver automações úteis para tarefas do dia a dia
+* Explorar fundamentos de segurança da informação
+* Documentar minha evolução técnica
+
+---
+
+## Executando os Projetos
+
 ```bash
-# Clone este repositório
-git clone [https://github.com/Jhader-DevSec/Python-Study-Journey.git](https://github.com/Jhader-DevSec/Python-Study-Journey.git)
+git clone https://github.com/Jhader-DevSec/Python-Study-Journey.git
 
-# Entre na pasta
 cd Python-Study-Journey
 
-# Execute um arquivo
 python nome_do_arquivo.py
+```
