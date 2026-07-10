@@ -29,6 +29,7 @@ Repositório dedicado à minha evolução em Python através de projetos prátic
 ## Estrutura do Repositório
 
 ```text
+60_dias_treino/
 Orientacao_Objetos/
 Automacao_Tarefas/
 Estruturas_Dados/
